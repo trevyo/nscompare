@@ -66,6 +66,6 @@ def interactive_mode():
             print(f"Error: {e}")
 
 if __name__ == "__main__":
-    print("DNS Comparison Tool (Interactive Mode)")
-    print("Use commands: 'server1 [IP/hostname]', 'server2 [IP/hostname]', 'set type [TYPE]', '[domain]'")
+    print("DNS Comparison Tool")
+    print("Use commands: 'server1 [IP/hostname]', 'server2 [IP/hostname]', 'set type=[TYPE]', '[domain]'")
     interactive_mode()
